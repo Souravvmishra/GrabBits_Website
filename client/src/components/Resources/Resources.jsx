@@ -62,7 +62,6 @@ function Resources() {
       const modifiedData = data.map(item => ({
         ...item
       }));
-
       setItems(modifiedData);
     } catch (error) {
       console.error('Error fetching sorted data:', error);
