@@ -53,7 +53,6 @@ function Resources() {
             ...item,
             body: item.body.split(' ').slice(0, 12).join(' ')
           }));
-      
           setItems(modifiedData);
         };
 
